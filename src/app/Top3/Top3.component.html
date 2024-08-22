@@ -1,0 +1,44 @@
+<div class="main-container">
+  <div class="tables-container">
+    <!-- Table for Top 3 Rejections by Percentage -->
+    <div class="table-container top-performance-container">
+      <div class="table-header">
+        <h5>Top 3 Rejections by Percentage</h5>
+      </div>
+      <table class="table top-performance-table">
+        <thead>
+          <tr>
+            <th>Ref</th>
+            <th>Rate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let performance of topPerformances; let i = index">
+            <td>{{ performance.expectedPn }}</td>
+            <td>{{ performance.rejectionRate | number: '1.2-2' }}%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="table-container additional-table-container">
+      <div class="table-header">
+        <h5>Top 3 Rejections by Value</h5>
+      </div>
+      <table class="table additional-table">
+        <thead>
+          <tr>
+            <th>Ref</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let performance of topPerformancesByValue; let i = index">
+            <td>{{ performance.expectedPn }}</td>
+            <td>{{ performance.price  }} € </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

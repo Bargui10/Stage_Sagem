@@ -1,0 +1,17 @@
+/* src/app/components/data-time/data-time.component.css */
+.date-time-container {
+    background-color: #007ea4; /* Couleur d'arrière-plan pour s'harmoniser avec le survol des éléments de navigation */
+    color: #ffffff; /* Couleur du texte en blanc pour un bon contraste */
+    padding: 10px 20px; /* Espacement intérieur */
+    border-radius: 5px; /* Bords arrondis pour un look plus doux */
+    font-size: 14px; /* Taille de police plus petite */
+    font-weight: bold; /* Police en gras pour plus de visibilité */
+    display: inline-block; /* Affichage en bloc en ligne pour éviter l'occupation de toute la largeur */
+    margin-bottom: 10px; /* Espacement inférieur pour éviter que cela ne colle aux autres éléments */
+    text-align: center; /* Centrer le texte */
+  }
+  
+  .date-time-text {
+    margin: 0; /* Supprimer la marge par défaut du paragraphe */
+  }
+  
