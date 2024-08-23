@@ -5,17 +5,17 @@
     width: 100%;
     z-index: 1000;
     background-color: rgba(255, 255, 255, 0.8); /* Réduit l'opacité du fond pour plus de contraste */
-    background-image: url(Fond_d_ecran_Sagemcom_1920x1080_2020-1\ \(1\).jpg);
-    background-size: cover; /* Assure que l'image couvre tout l'en-tête */
+    background-image: url(454650338_3550115501945113_3013897427617433289_n.png);
+    background-size: 100%; /* Assure que l'image couvre tout l'en-tête */
     background-position: top center; /* Aligne l'image au sommet de l'en-tête */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Fixe l'image de fond pour un effet de défilement parallax */
-    height: 60px; /* Ajuste la hauteur de l'en-tête pour ne montrer que la partie supérieure de l'image */
+    height: 100px; /* Ajuste la hauteur de l'en-tête pour ne montrer que la partie supérieure de l'image */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     overflow: hidden; /* Assure que tout dépassement est caché */
   }
   
@@ -29,10 +29,10 @@
   
   .header-image {
     position: absolute; /* Positionne l'image au-dessus */
-    top: 1px; /* Ajuste la position selon vos besoins */
+    top: 0px; /* Ajuste la position selon vos besoins */
     left: 5px; /* Ajuste la position selon vos besoins */
     width: auto; /* Ajuste la largeur de l'image selon vos besoins */
-    height: 50px; /* Ajuste la hauteur de l'image selon vos besoins */
+    height: 10px; /* Ajuste la hauteur de l'image selon vos besoins */
     z-index: 110; /* Assure que l'image est au-dessus du fond */
   }
   
